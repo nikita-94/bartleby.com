@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="img/logo.jpg" type="image" sizes="16x16">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bartleby.com</title>
+</head>
+
+<body>
+  <!-- NAVBAR SECTION -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3 fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" class="d-inline-block align-top logo" alt=""> Bartleby.com</a>
+      <div class="collapse navbar-collapse " id="navbarCollapse"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-user pt-2 pl-2 align-middle" data-toggle="modal" data-target="#loginModal" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- HEADER SECTION -->
+  <header>
+    <div class="overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="mt-5 py-5 col-lg-8 d-none d-lg-block align-middle">
+              <h1 class=" mt-5  pt-5 bg-img-text text-light d-flex flex-row  align-middle">Great Books Online</h1>
+              <p class="text-light lead">We are the preeminent internet publisher of literature, reference and verse providing students, researchers
+                and the intellectually curious with unlimited access to books and information on the web, free of charge.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MODAL SECTION -->
+  <div class="modal modal-fade" id="loginModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group input-group">
+              <label for="username">Username</label>
+              <span class="input-group-addon ml-2 rounded-left">@</span>
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group input-group">
+              <label for="password">Password</label>
+              <span class="input-group-addon ml-3 rounded-left">
+                <i class="fas fa-lock"></i>
+              </span>
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal">Cancel</button>
+          <button class="btn" data-dismiss="modal">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CARD SECTION -->
+  <div class="card-deck m-5">
+    <div class="card">
+      <img class="card-img-top" src="img/greys' anatomy.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Gray's Anatomy of the Human Body</h5>
+        <p class="card-text">The Bartleby.com edition of Gray’s Anatomy of the Human Body features 1,247 vibrant engravings—many in color—from
+          the classic 1918 publication, as well as a subject index with 13,000 entries ranging from the Antrum of Highmore
+          to the Zonule of Zinn.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          <a href="#">Read More</a>
+        </small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/holy bible.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">The Holy Bible: King James Version</h5>
+        <p class="card-text">The culmination of English translations of the Bible, featuring full-text search, content-based chapter guides and
+          quick verse finder. See also: Previous Features.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          <a href="#">Read More</a>
+        </small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/harvard classics.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">The Harvard Classics & Shelf of Fiction</h5>
+        <p class="card-text">The most comprehensive and well-researched anthology of all time comprises both the 50-volume "5-foot shelf of books"
+          and the 20-volume Shelf of Fiction. Together they cover every major literary figure, philosopher, religion, folklore
+          and historical subject through the twentieth century..</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          <a href="#">Read More</a>
+        </small>
+      </div>
+    </div>
+  </div>
+  <!-- MAIN SECTION -->
+  <section class="best-essay">
+    <div class="container">
+      <div class="row ">
+        <div class="col text-center ">
+          <div class="py-5 text-light">
+            <h1 class="display-4">Best Essays Online</h1>
+            <p class="lead">Browse through thousands of student written essays to help with your research paper today.</p>
+            <form class="justify-content-center form-inline mr-sm-2 text-center">
+              <div class="form-group input-group  border-dark justify-content-center text-center">
+                <span class="input-group-addon border-dark">
+                  <i class="fa fa-search search" style="font-size: 20px"></i>
+                </span>
+                <input type="text" placeholder="Search Essays Online" class=" justify-content-center border-dark form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="m-5">
+      <p class="h3">
+        Helpful Links
+      </p>
+      <div class="container m-5">
+        <div class="row m-2">
+          <div class="col-6 card-deck">
+            <div class="row card">
+              <div class="col-3">
+                <i class="fa fa-shopping-cart link-icon"style="font-size: 20px" aria-hidden="true"></i>
+              </div>
+              <div class="col-9 card-body">
+                <h5 class="card-title"> Buy the books on Bartleby</h5>
+                <p class="card-text">Download free e-books from the Amazon.com-enabled bookstore..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 card-deck">
+            <div class="row card">
+              <div class="col-3">
+                <i class="fa fa-book link-icon" style="font-size: 20px" aria-hidden="true"></i>
+              </div>
+              <div class="col-9 card-body">
+                <h5 class="card-title">Browse by Subjects</h5>
+                <p class="card-text">View our catalog organized by subject from Quotations to Verse to Fiction to Nonfiction..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-2">
+          <div class="col-6 card-deck">
+            <div class="row card">
+              <div class="col-3">
+                <i class="fa fa-edit link-icon" style="font-size: 20px" aria-hidden="true"></i>
+              </div>
+              <div class="col-9 card-body">
+                <h5 class="card-title">Browse by Primary Authors</h5>
+                <p class="card-text">Find works from Henry Adams to William Butler Yeats in our Primary Author Index.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 card-deck">
+            <div class="row card">
+              <div class="col-3">
+                <i class="fa fa-pencil link-icon m-1" style="font-size: 30px" aria-hidden="true"></i>
+              </div>
+              <div class="col-9 card-body">
+                <h5 class="card-title">Browse by title</h5>
+                <p class="card-text">Peruse an alphabetical listing of hundreds of our most popular titles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container mt-5">
+    <div class="row">
+      <ul class="d-inline col-3 pl-5 list-unstyled">
+        <li class="lead">
+          About us
+        </li>
+        <li>
+          terms
+        </li>
+        <li>
+          Privacy
+        </li>
+        <li>
+          Copywrite
+        </li>
+        <li>
+          Contact
+        </li>
+      </ul>
+      <ul class="d-inline col-3 px-2 list-unstyled">
+        <li class="lead">
+          Topics
+        </li>
+        <li>
+          Poetry
+        </li>
+        <li>
+          Harvard Classics
+        </li>
+        <li>
+          Saints
+        </li>
+      </ul>
+      <ul class="d-inline col-3 px-2 list-unstyled">
+        <li class="lead">
+          Resources
+        </li>
+        <li>
+          Bartleby Bookstore
+        </li>
+        <li>
+          Quotations
+        </li>
+        <li>
+          Bible
+        </li>
+        <li>
+          Top 150
+        </li>
+      </ul>
+      <ul class="d-inline col-3 ml-0 px-2 list-unstyled">
+        <li class="lead">
+          Subjects
+        </li>
+        <li>
+          Anatomy
+        </li>
+        <li>
+          Lit History
+        </li>
+        <li>
+          Shakespeare
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- MAIN FOOTER -->
+  <footer id="main-footer" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>Bartleby.com</p>
+          <p>Copyright &copy; 2017</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

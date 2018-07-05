@@ -1,0 +1,58 @@
+header {
+    background: url('../img/background.jpg') no-repeat center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+.search{
+    font-size: 20px;
+}
+
+.best-essay {
+    background-color: #1c77c2;
+}
+
+footer {
+    opacity: 0.8;
+}
+
+.card-title {
+    color: #996;
+}
+
+.card-img-top {
+    height: 225px;
+}
+
+.card-text {
+    color: #435059;
+    font-size: 14px;
+}
+
+.link-icon{
+    color: #996;
+    font-size: 1.5em;
+    text-align: center; 
+   
+}       
