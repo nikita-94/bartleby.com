@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     background: url('../img/background.jpg') no-repeat center fixed;
     background-size: cover;
@@ -5,14 +7,20 @@ header {
     min-height: 600px;
 }
 
+/* BODY */
+
 body {
     margin: 0 auto;
 }
+
+/* LOGO CSS */
 
 .logo {
     width: 30px;
     height: 30px;
 }
+
+/* Overlay the background */
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
@@ -21,21 +29,30 @@ body {
     min-height: 600px;
 }
 
+/* Navbar opacity */
+
 .navbar {
     opacity: 0.8;
 }
 
-.search{
+/* Search icon css */
+
+.search-icon {
     font-size: 20px;
+    padding: 2px;
 }
 
 .best-essay {
     background-color: #1c77c2;
 }
 
+/* Footer css */
+
 footer {
     opacity: 0.8;
 }
+
+/* CARD CSS */
 
 .card-title {
     color: #996;
@@ -50,9 +67,53 @@ footer {
     font-size: 14px;
 }
 
-.link-icon{
-    color: #996;
-    font-size: 1.5em;
-    text-align: center; 
-   
-}       
+.card-link {
+    height: 120px;
+}
+
+.card-body {
+    padding: 0;
+    margin: 0
+}
+
+/* Helpful link section */
+
+.link-icon {
+    width: 60px;
+    height: 50px;
+}
+
+/* Carousel-img */
+
+.img-carousel {
+    height: 400px;
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        margin: 5px;
+    }
+    .best-essay {
+        height: 175px;
+        font-size: 10px;
+    }
+    .display-4 {
+        font-size: 10px;
+        padding: 0;
+    }
+    .card-link {
+        height: auto;
+        width: 100%;
+        margin: 2px 2px 2px 1px;
+    }
+    #helpfullink {
+        margin: 0;
+    }
+    .row>ul>li, #main-footer {
+        opacity: 0.8;
+        font-size: 10px;
+    }
+    .best-essay-online {
+        font-size: 30px;
+    }
+}
