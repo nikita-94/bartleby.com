@@ -117,3 +117,15 @@ footer {
         font-size: 30px;
     }
 }
+
+@media (min-width:769px) and (max-width:1024px) {
+    #helpfullink {
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+    .help-media {
+        padding: 0;
+        font-size: 2px;
+    }
+}
